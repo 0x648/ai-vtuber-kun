@@ -9,8 +9,8 @@ AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播�
 ## 用户
 
 ### 下载
-[点击链接](https://github.com/XzaiCloud/AI-Vtuber-Kun/releases/)下载最新版本
-双击运行即可！
+- [点击链接](https://github.com/XzaiCloud/AI-Vtuber-Kun/releases/)下载最新版本
+- 双击运行即可！
 
 ## 开发
 

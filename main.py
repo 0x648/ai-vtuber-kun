@@ -51,7 +51,7 @@ async def on_danmaku(event):
     print(f"[AI回复”{user_name}“]: {response}")  # 打印AI回复信息
 
     # 将回复写入文件
-    with open("C:\\Users\\Xzai\\Desktop\\aioutput.txt", "a", encoding="utf-8") as f:
+    with open("C:\\AITextOutput.txt", "a", encoding="utf-8") as f:
         f.write(f"{response}\n")
 
     # 文本转语音并播放

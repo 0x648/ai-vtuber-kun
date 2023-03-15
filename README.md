@@ -6,6 +6,8 @@ AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播�
 
 交流群：[745682833](https://jq.qq.com/?_wv=1027&k=IO1usMMj)
 
+## 开发
+
 ### 要求
 - Python 3.7或更高版本
 - OpenAI API密钥

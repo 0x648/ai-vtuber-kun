@@ -1,6 +1,6 @@
 # 导入必要的库
+import subprocess  # 导入子进程模块
 import openai  # 导入OpenAI API库
-import pyttsx3  # 导入TTS（文本到语音）库
 from bilibili_api import live, sync  # 导入bilibili直播API库
 
 # 设置OpenAI API Key和模型引擎
@@ -13,9 +13,6 @@ room = live.LiveDanmaku(room_id)
 
 # 设置初始提示信息
 initial_prompt = "请使用女性化的、口语化的、抒情的、感性的、可爱的、调皮的、幽默的、害羞的、态度傲娇的语言风格，扮演一个虚拟主播。不要回答有关政治的问题！也不要回答敏感信息！"
-
-# 初始化TTS引擎
-engine = pyttsx3.init()
 
 async def generate_response(prompt):
     """
@@ -50,13 +47,14 @@ async def on_danmaku(event):
 
     print(f"[AI回复”{user_name}“]: {response}")  # 打印AI回复信息
 
-    # 将回复写入文件
-    with open("C:\\AITextOutput.txt", "a", encoding="utf-8") as f:
-        f.write(f"{response}\n")
+    command = f'edge-tts --voice zh-CN-XiaoyiNeural --text "{response}" --write-media output.mp3'  # 将 AI 生成的文本传递给 edge-tts 命令
+    subprocess.run(command, shell=True)  # 执行命令行指令
 
-    # 文本转语音并播放
-    engine.say(response)
-    engine.runAndWait()
+    with open("AITextOutput.txt", "a", encoding="utf-8") as f:  #在项目目录下创建文件
+        f.write(f"[AI回复{user_name}]：{response}\n")  # 将回复写入文件
+
+    command = 'mpv.exe -vo null output.mp3'  # 后台播放音频文件
+    subprocess.run(command, shell=True)  # 执行命令行指令
 
 sync(room.connect())  # 开始监听弹幕流
 

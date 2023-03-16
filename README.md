@@ -20,7 +20,7 @@ AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播�
 - Python 3.7或更高版本
 - OpenAI API密钥
 - Bilibili帐户和房间ID
-- `openai`、`pyttsx3`和`bilibili-api-python` Python库
+- `openai`、`edge-tts`和`bilibili-api-python` Python库
 
 ### 安装
 1. 克隆存储库：
@@ -29,7 +29,7 @@ git clone https://github.com/XzaiCloud/AI-Vtuber-Kun.git
 ```
 2. 安装所需的软件包：
 ```bash
-pip install openai pyttsx3 bilibili-api-python
+pip install openai edge-tts bilibili-api-python
 ```
 
 ### 使用方法
@@ -52,8 +52,9 @@ python main.py
 - 随便搞个皮就行了
 
 ### 待办事项
+- [x] 添加Edge TTS支持
 - [ ] 实现敏感词过滤
-- [ ] 添加Microsoft TTS支持
+- [ ] 添加Azure TTS支持
 
 ### 许可证
 本项目根据Apache License 2.0许可证发布。有关详情，请参见LICENSE文件。

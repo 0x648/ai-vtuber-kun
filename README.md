@@ -2,6 +2,8 @@
 
 AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播中与观众实时互动。它使用自然语言处理和文本转语音技术生成对观众问题的回答。
 
+如果你有精力、有技术、有性能够好的电脑，可以看看我的[新项目](https://github.com/XzaiCloud/AI-Vtuber)
+
 交流群：[745682833](https://jq.qq.com/?_wv=1027&k=IO1usMMj)
 
 注意！软件只支持Windows平台！

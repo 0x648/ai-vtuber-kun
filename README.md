@@ -53,7 +53,6 @@ python main.py
 
 ### 待办事项
 - [ ] 实现敏感词过滤
-- [ ] 添加Microsoft TTS支持
 
 ### 许可证
 本项目根据Apache License 2.0许可证发布。有关详情，请参见LICENSE文件。

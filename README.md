@@ -21,6 +21,7 @@ AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播�
 - OpenAI API密钥
 - Bilibili帐户和房间ID
 - `openai`、`edge-tts`和`bilibili-api-python` Python库
+- `mpv.exe`
 
 ### 安装
 1. 克隆存储库：

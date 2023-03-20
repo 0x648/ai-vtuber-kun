@@ -1,11 +1,11 @@
 {
   "openai": {
     "api_key": [
-      "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"
+      "你的key"
     ]
   },
-  "room_display_id": "22747237",
-  "api": "https://chat-gpt.aurorax.cloud/v1",
+  "room_display_id": "你的直播间地址",
+  "api": "https://service-dxve0sjk-1310366849.sg.apigw.tencentcs.com/v1",
   "tts_voice": "zh-CN-XiaoyiNeural",
   "chatgpt": {
     "model": "gpt-3.5-turbo",

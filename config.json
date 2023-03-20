@@ -1,0 +1,19 @@
+{
+  "openai": {
+    "api_key": [
+      "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"
+    ]
+  },
+  "room_display_id": "22747237",
+  "api": "https://chat-gpt.aurorax.cloud/v1",
+  "tts_voice": "zh-CN-XiaoyiNeural",
+  "chatgpt": {
+    "model": "gpt-3.5-turbo",
+    "temperature": 0.9,
+    "max_tokens": 2048,
+    "top_p": 1,
+    "presence_penalty": 0,
+    "frequency_penalty": 0,
+    "preset": "请扮演一个AI虚拟主播。不要回答任何敏感问题！不要强调你是主播，只需要回答问题！"
+  }
+}

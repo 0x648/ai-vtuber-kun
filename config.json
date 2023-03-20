@@ -5,7 +5,7 @@
     ]
   },
   "room_display_id": "你的直播间地址",
-  "api": "https://service-dxve0sjk-1310366849.sg.apigw.tencentcs.com/v1",
+  "api": "改成你自己的api地址，如果你不会搞的话，就改成：https://api.openai.com/v1",
   "tts_voice": "zh-CN-XiaoyiNeural",
   "chatgpt": {
     "model": "gpt-3.5-turbo",

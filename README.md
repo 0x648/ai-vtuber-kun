@@ -8,20 +8,11 @@ AI Vtuber Kun是一个由OpenAI驱动的虚拟主播，可以在Bilibili直播�
 
 注意！软件只支持Windows平台！
 
-## 用户
-
-### 使用方法
-- [点击链接](https://github.com/XzaiCloud/AI-Vtuber-Kun/releases/)下载最新版本
-- 双击运行即可！
-
-## 开发
-
 ### 要求
-- Python 3.7或更高版本
+- Python 3.8或更高版本
 - OpenAI API密钥
 - Bilibili帐户和房间ID
-- `openai`、`edge-tts`和`bilibili-api-python` Python库
-- `mpv.exe`
+- `openai`、`edge-tts`、`bilibili-api-python`、`pygame` 等Python库
 
 ### 安装
 1. 克隆存储库：
@@ -30,16 +21,17 @@ git clone https://github.com/XzaiCloud/AI-Vtuber-Kun.git
 ```
 2. 安装所需的软件包：
 ```bash
-pip install openai edge-tts bilibili-api-python
+pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some-package
 ```
 
 ### 使用方法
-1. 运行程序：
+1.按照提示修改`config.json`的信息
+2. 运行程序：
 ```bash
 python main.py
 ```
-2. 在Bilibili上开始直播并进入您的直播间。
-3. AI-Vtuber-Kun将开始实时生成对观众问题的回答并通过语音讲述。
+3. 在Bilibili上开始直播并进入您的直播间。
+4. AI-Vtuber-Kun将开始实时生成对观众问题的回答并通过语音讲述。
 
 ### 给新手的 OBS 配置详解：
 #### blivechat 配置
@@ -51,9 +43,6 @@ python main.py
 - 推流码填写「B 站首页 > 头像 > 推荐服务 > 直播中心 > 左侧“我的直播间”> 填好直播分类、房间标题 > 开始直播，然后会显示的串流密钥」
 #### Live2D...
 - 随便搞个皮就行了
-
-### 待办事项
-- [ ] 实现敏感词过滤
 
 ### 许可证
 没许可证了，随便用

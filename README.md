@@ -56,4 +56,4 @@ python main.py
 - [ ] 实现敏感词过滤
 
 ### 许可证
-本项目根据Apache License 2.0许可证发布。有关详情，请参见LICENSE文件。
+没许可证了，随便用

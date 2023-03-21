@@ -25,7 +25,7 @@ pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple some
 ```
 
 ### 使用方法
-1.按照提示修改`config.json`的信息
+1. 按照提示修改`config.json`的信息
 2. 运行程序：
 ```bash
 python main.py
